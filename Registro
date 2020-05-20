@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inicio de Sesion</title>
+	<link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+
+<form action="action_page.php" style="border:1px solid">
+  <div class="container">
+    <h1>Registrar</h1>
+    <p>Complete este formulario para crear una cuenta.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Contraseña</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repetir Contraseña</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Recordar
+    </label>
+
+    <p>Al crear una cuenta, usted acepta nuestros <a href="#" style="color:dodgerblue">Términos y Privacidad</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Crear</button>
+    </div>
+  </div>
+</form>
+
+</body>
+</html>
